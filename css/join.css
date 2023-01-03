@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* parent container */
+.join-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    top: 1px;
+    display: none;
+    position: fixed;
+}
+
+/* child container */
+.join-child-container {
+    max-width: 600px;
+    max-height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1000;
+    position: relative;
+    padding-bottom: 100px;
+    /* border: 3px solid red; */
+}
+.join-child-container svg {
+    /* top: 20px; */
+    height: 20px;
+    /* width: 20px; */
+}
+.join-child-container .join-twitter-logo {
+    position: relative;
+    height: 50px;
+    /* width: 40px; */
+    fill:  rgb(29, 155, 240);
+    /* border: 3px solid; */
+    margin-top: -50px;
+    /* border: 2px solid deeppink; */
+    margin-left: 45%;
+    /* padding: 20px; */
+}
+.join-sub-child h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+.join-common-cont {
+    border: 1px solid lightgray;
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    justify-content: center;
+    margin: 30px 80px;
+    border-radius: 50px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    cursor: pointer;
+    /* background-color: yellow; */
+}
+.join-common-cont div {
+      display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+}
+.join-apple {
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* background-color: crimson; */
+}
+.phone-email {
+    background-color:black;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 20px 80px;
+    padding: 10px;
+}
+.join-sub-child hr {
+    margin: 0 80px;
+}
+.join-sub-child .or {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    width: 5%;
+    left: 48%;
+    margin-top: -12px;
+    font-size: large;
+}
+.join-sub-child .agree p {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 0 80px;
+    box-sizing: border-box;
+}
+.join-common-cont svg {
+    margin: 0px 10px;
+}

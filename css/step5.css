@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.step5-container {
+    /* border: 2px solid ; */
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: none;
+    background-color: rbga(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 1px;
+}
+.step5-child {
+    max-width: 600px;
+    /* max-height: 640px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1000;
+    position: relative;
+    /* border: 10px solid red; */
+}
+.step5-container button {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: large;
+    border: none;
+    border-radius: 50px;
+}
+.step5-container button:hover {
+    background-color: black;
+    border: px solid red;
+    cursor: pointer;
+}
+.five-sub-child-div img {
+    text-align: center;
+    margin-left: 30px;
+    margin-top: -20px;
+}

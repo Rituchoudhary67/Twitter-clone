@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.step3-container {
+    /* border: 2px solid ; */
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: none;
+    background-color: rbga(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 1px;
+}
+.step3-child {
+    max-width: 600px;
+    max-height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1000;
+    position: relative;
+    /* border: 1px solid; */
+}
+.step3-child h3 {
+    position: relative;
+    left: 20%;
+    margin-top: -20px;
+}
+.step3-container h1 {
+    padding: 20px 0;
+}
+.step3-container button {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: large;
+    border: none;
+    border-radius: 50px;
+}
+.step3-container button:hover {
+    background-color:rgb(25,199,225);
+    cursor: pointer;
+}
