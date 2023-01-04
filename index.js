@@ -84,5 +84,5 @@ submitBtn.addEventListener("click",(e)=> {
     alert("Sign up is sucessfully done...");
     document.querySelector(".step5-container").style.display = "none";
     document.querySelector(".join-child-container").style.display = "none";
-    document.querySelector(".join-container").style.display = "none";
+    // document.querySelector(".join-container").style.display = "none";
 })
