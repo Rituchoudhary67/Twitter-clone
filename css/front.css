@@ -26,7 +26,7 @@
     left: 22%;
 }
 .right-side-container {
-    border: 3px solid;
+    /* border: 3px solid; */
     margin-left:65%;
     width: 35%;
     height: 100%;
@@ -297,7 +297,7 @@
     padding: 10px;
     margin-left: 60px;
     border-radius: 50px;
-    background-color: rgb(238, 236, 236);
+    background: rgb(235, 238, 240);
 }
 .right-input-box i {
     /* background-color: pink; */
@@ -307,6 +307,45 @@
 .right-input-box input {
     margin-left: 20px;
     border: none;
-    background-color: rgb(238, 236, 236);
+    background: rgb(235, 238, 240);
     outline: none;
+}
+.right-text-box {
+    margin: 10px 30px;
+    /* border: 3px solid; */
+    border-radius: 15px;
+    padding: 10px 0;
+    background: rgb(235, 238, 240);
+}
+.right-text-box h1 {
+    margin: 5px 0 0 10px;
+}
+.right-mid-last {
+    /* border-top: 1px solid lightgray; */
+    height: 350px;
+   
+    /* overflow-y: scroll; */
+}
+.right-mid-last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    /* border: 3px solid; */
+}
+.right-mid-last-child p ,.mid-last-child i{
+    color: gray;
+}
+.right-mid-last-child:hover {
+    background-color: rgb(228, 228, 228);
+    /* border-radius: 5px; */
+}
+.terms-cond {
+    border-top: 1px solid gray;
+    margin: 30px 30px;
+    padding: 20px 0;
+    letter-spacing: 0.5px;
+    color: gray;
+    word-spacing: 0.7px;
+    text-align: justify;
 }
