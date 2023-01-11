@@ -89,6 +89,10 @@ document.addEventListener('click', async (event) => {
 
         document.querySelector('.front-tweet-post-text').value = "";
         alert(tweet.message);
+
+        // document.getElementById('tweet-body').insertAdjacentHTML('beforebegin',) = "";
+        // getTweetsAndInsertHTML();
+
     }
 
     if(event.target.classList.contains('tweet-delete')) {
